@@ -35,9 +35,6 @@
 #include <gtest/gtest.h>
 #include <tf2/convert.h>
 
-static const double EPS = 1e-3;
-
-
 TEST(TfBullet, ConvertVector)
 {
   btVector3 v(1,2,3);
